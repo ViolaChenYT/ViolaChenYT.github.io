@@ -11,7 +11,7 @@ title:            Viola Yitao Chen
 tagline:          'A Jekyll theme'
 description:      'Hi there! My name is Viola and I love computer science related and biology related stuff. Struggling to build my personal website now.' # Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.
 url:              https://violachenyt.github.io
-baseurl:          https://violachenyt.github.io
+baseurl:          Violachenyt.github.io
 
 author:
   name:           'Viola Chen'
