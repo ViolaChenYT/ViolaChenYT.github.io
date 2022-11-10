@@ -14,6 +14,7 @@ Here are the bi-weekly updates the following semester
 - [fourth](../documents/update4.pdf)
 - [fifth](../documents/update5.pdf)
 - [six](../documents/update6.pdf) and [edit](../documents/update6edit.pdf)
+- [seven](../documents/final_report.pdf)
 
 and here is my [final presentation slides](../documents/Untitled_presentation.pdf)
 
