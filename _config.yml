@@ -1,1 +1,26 @@
-theme: jekyll-theme-slate
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            Viola Yitao Chen
+tagline:          'A Jekyll theme'
+description:      'Hi there! My name is Viola and I love computer science related and biology related stuff. Struggling to build my personal website now.' # Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.
+url:              https://violachenyt.github.io
+baseurl:          /
+
+author:
+  name:           'Viola Chen'
+  url:            https://twitter.com/ViolaCh75365103
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/ViolaChenYT.github.io

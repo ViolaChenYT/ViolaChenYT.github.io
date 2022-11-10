@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Viola Yitao Chen</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2022-11-11T01:55:07+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Viola Chen</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>About me</title>
+   <link href="http://localhost:4000/2022/11/10/introduction/"/>
+   <updated>2022-11-10T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2022/11/10/introduction</id>
+   <content type="html">&lt;p&gt;I am still a student, still learning :)&lt;/p&gt;
+
+&lt;!-- 
+### Hyde features
+
+In addition to the features of Poole, Hyde adds the following:
+
+* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
+* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `&lt;body&gt;` classes
+* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `&lt;body&gt;` classes
+
+[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+
+### Browser support
+
+Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+
+### Download
+
+Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.
+
+Thanks! --&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My little adventure in evolutionary dynamics</title>
+   <link href="http://localhost:4000/2022/11/07/my_little_adventure/"/>
+   <updated>2022-11-07T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2022/11/07/my_little_adventure</id>
+   <content type="html">&lt;p&gt;Here is the &lt;a href=&quot;/documents/07300proposal.pdf&quot;&gt;initial proposal&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;/documents/07300_mildstone.pdf&quot;&gt;milestone report&lt;/a&gt; after 2 months&lt;/p&gt;
+
+&lt;p&gt;Here are the bi-weekly updates the following semester&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update1.pdf&quot;&gt;first&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update2.pdf&quot;&gt;second&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update3.pdf&quot;&gt;third&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update4.pdf&quot;&gt;fourth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update5.pdf&quot;&gt;fifth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/update6.pdf&quot;&gt;six&lt;/a&gt; and &lt;a href=&quot;../documents/update6edit.pdf&quot;&gt;edit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and here is my &lt;a href=&quot;../documents/Untitled_presentation.pdf&quot;&gt;final presentation slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- 
+&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+
+&gt; Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+
+## Inline HTML elements
+
+HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+- **To bold text**, use `&lt;strong&gt;`.
+- *To italicize text*, use `&lt;em&gt;`.
+- Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use `&lt;abbr&gt;`, with an optional `title` attribute for the full phrase.
+- Citations, like &lt;cite&gt;&amp;mdash; Mark otto&lt;/cite&gt;, should use `&lt;cite&gt;`.
+- &lt;del&gt;Deleted&lt;/del&gt; text should use `&lt;del&gt;` and &lt;ins&gt;inserted&lt;/ins&gt; text should use `&lt;ins&gt;`.
+- Superscript &lt;sup&gt;text&lt;/sup&gt; uses `&lt;sup&gt;` and subscript &lt;sub&gt;text&lt;/sub&gt; uses `&lt;sub&gt;`.
+
+Most of these elements are styled by browsers with few modifications on our part.
+
+## Heading
+
+Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+### Code
+
+Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;return a + b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function
+&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+### Gists via GitHub Pages
+
+Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
+
+&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;
+
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+
+### Lists
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+* Donec id elit non mi porta gravida at eget metus.
+* Nulla vitae elit libero, a pharetra augue.
+
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+
+1. Vestibulum id ligula porta felis euismod semper.
+2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+### Images
+
+Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+
+![placeholder](http://placehold.it/800x400 &quot;Large example image&quot;)
+![placeholder](http://placehold.it/400x200 &quot;Medium example image&quot;)
+![placeholder](http://placehold.it/200x200 &quot;Small example image&quot;)
+
+### Tables
+
+Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+-----
+
+Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt; --&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Skip-gram method in graph representation learning</title>
+   <link href="http://localhost:4000/2022/11/06/GNN_skipgram/"/>
+   <updated>2022-11-06T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2022/11/06/GNN_skipgram</id>
+   <content type="html">&lt;p&gt;As part of my little adventure into learning more about machine learning, I have joined a journal club on graph neural network (GNN).
+Here are my slides for the part I taught, which is mostly on skip-gram methods for graphs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;slides for &lt;a href=&quot;../documents/skip-gram.pdf&quot;&gt;skip-gram background&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;slides for &lt;a href=&quot;../documents/loss_function1.pdf&quot;&gt;loss-function(I)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;slides for &lt;a href=&quot;../documents/loss_function2.pdf&quot;&gt;loss-function(II)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;slides for &lt;a href=&quot;../documents/loss_function3.pdf&quot;&gt;negative sampling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+
+  &gt; Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool and one we encourage you to use here with Hyde.
+
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll). --&gt;
+</content>
+ </entry>
+ 
+
+</feed>
