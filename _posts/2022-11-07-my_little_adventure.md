@@ -19,6 +19,8 @@ Here are the bi-weekly updates the following semester
 and here is my [final presentation slides](../documents/evo_dym/Untitled_presentation.pdf)
 
 - [Nov14th update](../documents/evo_dym/Nov%2014%20update.pdf)
+- hopefully more to come :)
+
 <!-- 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
