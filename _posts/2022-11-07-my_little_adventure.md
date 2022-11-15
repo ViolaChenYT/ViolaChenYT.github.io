@@ -3,21 +3,22 @@ layout: post
 title: My little adventure in evolutionary dynamics
 ---
 
-Here is the [initial proposal](/documents/07300proposal.pdf)
+Here is the [initial proposal](../documents/evo_dym/07300proposal.pdf)
 
-Here is the [milestone report](/documents/07300_mildstone.pdf) after 2 months
+Here is the [milestone report](../documents/evo_dym/07300_mildstone.pdf) after 2 months
 
 Here are the bi-weekly updates the following semester 
-- [first](../documents/update1.pdf)
-- [second](../documents/update2.pdf)
-- [third](../documents/update3.pdf)
-- [fourth](../documents/update4.pdf)
-- [fifth](../documents/update5.pdf)
-- [six](../documents/update6.pdf) and [edit](../documents/update6edit.pdf)
-- [seven](../documents/final_report.pdf)
+- [first](../documents/evo_dym/update1.pdf)
+- [second](../documents/evo_dym/update2.pdf)
+- [third](../documents/evo_dym/update3.pdf)
+- [fourth](../documents/evo_dym/update4.pdf)
+- [fifth](../documents/evo_dym/update5.pdf)
+- [six](../documents/evo_dym/update6.pdf) and [edit](../documents/evo_dym/update6edit.pdf)
+- [seven](../documents/evo_dym/final_report.pdf)
 
-and here is my [final presentation slides](../documents/Untitled_presentation.pdf)
+and here is my [final presentation slides](../documents/evo_dym/Untitled_presentation.pdf)
 
+- [Nov14th update](../documents/evo_dym/Nov%2014%20update.pdf)
 <!-- 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
