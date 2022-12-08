@@ -22,8 +22,8 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/logo.png">
+                                 <link rel="shortcut icon" href="/public/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -68,11 +68,7 @@
       
         
       
-
-      <!-- <a class="sidebar-nav-item" href="https://github.com/ViolaChenYT.github.io/archive/v2.1.0.zip">Download</a> -->
-
-      <!-- <a class="sidebar-nav-item" href="https://github.com/ViolaChenYT.github.io">GitHub project</a> -->
-
+      <a class="sidebar-nav-item" href="https://github.com/ViolaChenYT.github.io">GitHub project</a>
       <span class="sidebar-nav-item">Currently v2.1.0</span>
 
     </nav>
@@ -87,6 +83,61 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2022/12/06/Evo-update/">
+        Profiling evolution on graph of size 10
+      </a>
+    </h1>
+
+    <span class="post-date">06 Dec 2022</span>
+
+    <h2 id="summary-of-experiment">Summary of experiment</h2>
+<ul>
+  <li>Detour graphs seem to have lower-than-expected probability of fixation with noise in fitness, we wanted to confirm if this is the case in graph of size 10 as well (previous experiments were done on graphs of size 100)</li>
+  <li>Since the number of graphs of size 10 is limited, I hope to use those graphs to find out what might cause deviations from the geometric mean fitness principle</li>
+</ul>
+
+<h2 id="summary-of-results">Summary of results</h2>
+
+<h3 id="average-p-fix-with-max-variance--p-fix-with-no-variance-is-much-higher-for-graphs-of-size-10">Average P-fix with max variance / P-fix with no variance is much higher for graphs of size 10</h3>
+<p>Recall that the calculated geometric mean for this set up,</p>
+<ul>
+  <li>wild type fitness 1</li>
+  <li>s = 0.1</li>
+  <li>mutant fitness from a binomial distribution of either 0.2 or 2</li>
+</ul>
+
+<p>was about 0.632,
+and that the experimental ratio between pfix_max / pfix_0 for graph of size 100 and beyond is about 0.615
+<img src="../documents/evo_dym/group1_boxplot.png" alt="Boxplot of the ratio of pfix_max / pfix_0 for 2000 graphs of size 10" />
+Here in graphs of size 10, we observed a much higher ratio of pfix_max / pfix_0, suggesting that p-fix with variance is higher than expected in such small graphs, ie. high variability in fitness is less harmful. The reason for this is yet to be understood.</p>
+
+<h3 id="detour-graphs-still-have-a-lower-ratio-of-pfix_max--pfix_0">Detour graphs still have a lower ratio of pfix_max / pfix_0</h3>
+<p><img src="../documents/evo_dym/graph10c_group1_median_gradient.png" alt="Scatter plot of pfix_max against pfix_0 for graphs of size 10" />
+Legend:</p>
+<ul>
+  <li>green: detour graphs,</li>
+  <li>orange: more dense graphs,</li>
+  <li>blue: sparser graphs</li>
+</ul>
+
+<h3 id="geometric-mean-principle-may-not-hold">Geometric mean principle may not hold</h3>
+<p><img src="../documents/evo_dym/graph10c_group1_gradientofwellmixed.png" alt="Scatter plot of pfix_max against pfix_0 for graphs of size 10" />
+The ratio of pfix_max / pfix_0 in a wellmixed population in about 0.77.
+The line y = 0.77x is plotted in the figure, and it seems like this is not the line that fits most points.
+It could also be the case that those 2000 graphs are graphs that deviate from the line.</p>
+
+<!-- [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+
+  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool and one we encourage you to use here with Hyde.
+
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll). -->
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2022/11/10/introduction/">
         About me
       </a>
@@ -94,7 +145,23 @@
 
     <span class="post-date">10 Nov 2022</span>
 
-    <p>I am still a student, still learning :)</p>
+    <p>My Bucket list: (in no particular order)</p>
+<ul>
+  <li>See the Northern light</li>
+  <li>Have my own house</li>
+  <li>Land an Axel on ice</li>
+  <li>Run a sub-2 half-marathon</li>
+  <li>Run a sub-4 marathon</li>
+  <li>Get the Ph.D.</li>
+  <li>Get a part-time job as a bartender</li>
+  <li>Climb Mt. Everest</li>
+  <li>Live in Japan or Germany for a year</li>
+  <li>Play <em>Flower Dance</em> on harmonica</li>
+  <li>Use <em>Beautiful in White</em> as the music for my wedding</li>
+  <li>more TBD</li>
+</ul>
+
+<p>I know some are easier than others and some require much more work, but please, allow me to dream, at least :)</p>
 
 <!-- 
 ### Hyde features
@@ -121,6 +188,23 @@ Thanks! -->
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2022/11/09/Notes_from_computational_genomics/">
+        Computational Genomics
+      </a>
+    </h1>
+
+    <span class="post-date">09 Nov 2022</span>
+
+    <p>I took the course computational genomics at Carnegie Mellon in Spring 2022 and consolidated my own notes from the part of lectures that were on the exam. 
+I…narcissistically think that my notes were decent as they helped me to score pretty well on the exam :D</p>
+
+<p><a href="../documents/510notes.pdf">Here</a> it is.
+I will definitely revisit and make this better as I learn more and more about the various topics touched by this course.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2022/11/07/my_little_adventure/">
         My little adventure in evolutionary dynamics
       </a>
@@ -128,21 +212,27 @@ Thanks! -->
 
     <span class="post-date">07 Nov 2022</span>
 
-    <p>Here is the <a href="/documents/07300proposal.pdf">initial proposal</a></p>
+    <p>Here is the <a href="../documents/evo_dym/07300proposal.pdf">initial proposal</a></p>
 
-<p>Here is the <a href="/documents/07300_mildstone.pdf">milestone report</a> after 2 months</p>
+<p>Here is the <a href="../documents/evo_dym/07300_mildstone.pdf">milestone report</a> after 2 months</p>
 
 <p>Here are the bi-weekly updates the following semester</p>
 <ul>
-  <li><a href="../documents/update1.pdf">first</a></li>
-  <li><a href="../documents/update2.pdf">second</a></li>
-  <li><a href="../documents/update3.pdf">third</a></li>
-  <li><a href="../documents/update4.pdf">fourth</a></li>
-  <li><a href="../documents/update5.pdf">fifth</a></li>
-  <li><a href="../documents/update6.pdf">six</a> and <a href="../documents/update6edit.pdf">edit</a></li>
+  <li><a href="../documents/evo_dym/update1.pdf">first</a></li>
+  <li><a href="../documents/evo_dym/update2.pdf">second</a></li>
+  <li><a href="../documents/evo_dym/update3.pdf">third</a></li>
+  <li><a href="../documents/evo_dym/update4.pdf">fourth</a></li>
+  <li><a href="../documents/evo_dym/update5.pdf">fifth</a></li>
+  <li><a href="../documents/evo_dym/update6.pdf">six</a> and <a href="../documents/evo_dym/update6edit.pdf">edit</a></li>
+  <li><a href="../documents/evo_dym/final_report.pdf">seven</a></li>
 </ul>
 
-<p>and here is my <a href="../documents/Untitled_presentation.pdf">final presentation slides</a></p>
+<p>and here is my <a href="../documents/evo_dym/Untitled_presentation.pdf">final presentation slides</a></p>
+
+<ul>
+  <li><a href="../documents/evo_dym/Nov%2014%20update.pdf">Nov14th update</a></li>
+  <li>hopefully more to come :)</li>
+</ul>
 
 <!-- 
 <div class="message">

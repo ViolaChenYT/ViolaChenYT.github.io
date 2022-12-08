@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Profiling evolution on graph of size 10 &middot; Viola Yitao Chen
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/logo.png">
+                                 <link rel="shortcut icon" href="/public/logo.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Viola Yitao Chen
+        </a>
+      </h1>
+      <p class="lead">Hi there! My name is Viola and I love computer science related and biology related stuff. Struggling to build my personal website now.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About Me</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="sidebar-nav-item" href="https://github.com/ViolaChenYT.github.io">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+
+    </nav>
+
+    <p>&copy; 2022. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Profiling evolution on graph of size 10</h1>
+  <span class="post-date">06 Dec 2022</span>
+  <h2 id="summary-of-experiment">Summary of experiment</h2>
+<ul>
+  <li>Detour graphs seem to have lower-than-expected probability of fixation with noise in fitness, we wanted to confirm if this is the case in graph of size 10 as well (previous experiments were done on graphs of size 100)</li>
+  <li>Since the number of graphs of size 10 is limited, I hope to use those graphs to find out what might cause deviations from the geometric mean fitness principle</li>
+</ul>
+
+<h2 id="summary-of-results">Summary of results</h2>
+
+<h3 id="average-p-fix-with-max-variance--p-fix-with-no-variance-is-much-higher-for-graphs-of-size-10">Average P-fix with max variance / P-fix with no variance is much higher for graphs of size 10</h3>
+<p>Recall that the calculated geometric mean for this set up,</p>
+<ul>
+  <li>wild type fitness 1</li>
+  <li>s = 0.1</li>
+  <li>mutant fitness from a binomial distribution of either 0.2 or 2</li>
+</ul>
+
+<p>was about 0.632,
+and that the experimental ratio between pfix_max / pfix_0 for graph of size 100 and beyond is about 0.615
+<img src="../documents/evo_dym/group1_boxplot.png" alt="Boxplot of the ratio of pfix_max / pfix_0 for 2000 graphs of size 10" />
+Here in graphs of size 10, we observed a much higher ratio of pfix_max / pfix_0, suggesting that p-fix with variance is higher than expected in such small graphs, ie. high variability in fitness is less harmful. The reason for this is yet to be understood.</p>
+
+<h3 id="detour-graphs-still-have-a-lower-ratio-of-pfix_max--pfix_0">Detour graphs still have a lower ratio of pfix_max / pfix_0</h3>
+<p><img src="../documents/evo_dym/graph10c_group1_median_gradient.png" alt="Scatter plot of pfix_max against pfix_0 for graphs of size 10" />
+Legend:</p>
+<ul>
+  <li>green: detour graphs,</li>
+  <li>orange: more dense graphs,</li>
+  <li>blue: sparser graphs</li>
+</ul>
+
+<h3 id="geometric-mean-principle-may-not-hold">Geometric mean principle may not hold</h3>
+<p><img src="../documents/evo_dym/graph10c_group1_gradientofwellmixed.png" alt="Scatter plot of pfix_max against pfix_0 for graphs of size 10" />
+The ratio of pfix_max / pfix_0 in a wellmixed population in about 0.77.
+The line y = 0.77x is plotted in the figure, and it seems like this is not the line that fits most points.
+It could also be the case that those 2000 graphs are graphs that deviate from the line.</p>
+
+<!-- [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+
+  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool and one we encourage you to use here with Hyde.
+
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll). -->
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2022/11/10/introduction/">
+            About me
+            <small>10 Nov 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2022/11/09/Notes_from_computational_genomics/">
+            Computational Genomics
+            <small>09 Nov 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2022/11/07/my_little_adventure/">
+            My little adventure in evolutionary dynamics
+            <small>07 Nov 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

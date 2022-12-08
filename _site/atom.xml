@@ -4,7 +4,7 @@
  <title>Viola Yitao Chen</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-11T02:25:49+08:00</updated>
+ <updated>2022-12-08T11:27:11+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Viola Chen</name>
@@ -13,11 +13,78 @@
 
  
  <entry>
+   <title>Profiling evolution on graph of size 10</title>
+   <link href="http://localhost:4000/2022/12/06/Evo-update/"/>
+   <updated>2022-12-06T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2022/12/06/Evo-update</id>
+   <content type="html">&lt;h2 id=&quot;summary-of-experiment&quot;&gt;Summary of experiment&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Detour graphs seem to have lower-than-expected probability of fixation with noise in fitness, we wanted to confirm if this is the case in graph of size 10 as well (previous experiments were done on graphs of size 100)&lt;/li&gt;
+  &lt;li&gt;Since the number of graphs of size 10 is limited, I hope to use those graphs to find out what might cause deviations from the geometric mean fitness principle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;summary-of-results&quot;&gt;Summary of results&lt;/h2&gt;
+
+&lt;h3 id=&quot;average-p-fix-with-max-variance--p-fix-with-no-variance-is-much-higher-for-graphs-of-size-10&quot;&gt;Average P-fix with max variance / P-fix with no variance is much higher for graphs of size 10&lt;/h3&gt;
+&lt;p&gt;Recall that the calculated geometric mean for this set up,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;wild type fitness 1&lt;/li&gt;
+  &lt;li&gt;s = 0.1&lt;/li&gt;
+  &lt;li&gt;mutant fitness from a binomial distribution of either 0.2 or 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;was about 0.632,
+and that the experimental ratio between pfix_max / pfix_0 for graph of size 100 and beyond is about 0.615
+&lt;img src=&quot;../documents/evo_dym/group1_boxplot.png&quot; alt=&quot;Boxplot of the ratio of pfix_max / pfix_0 for 2000 graphs of size 10&quot; /&gt;
+Here in graphs of size 10, we observed a much higher ratio of pfix_max / pfix_0, suggesting that p-fix with variance is higher than expected in such small graphs, ie. high variability in fitness is less harmful. The reason for this is yet to be understood.&lt;/p&gt;
+
+&lt;h3 id=&quot;detour-graphs-still-have-a-lower-ratio-of-pfix_max--pfix_0&quot;&gt;Detour graphs still have a lower ratio of pfix_max / pfix_0&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;../documents/evo_dym/graph10c_group1_median_gradient.png&quot; alt=&quot;Scatter plot of pfix_max against pfix_0 for graphs of size 10&quot; /&gt;
+Legend:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;green: detour graphs,&lt;/li&gt;
+  &lt;li&gt;orange: more dense graphs,&lt;/li&gt;
+  &lt;li&gt;blue: sparser graphs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;geometric-mean-principle-may-not-hold&quot;&gt;Geometric mean principle may not hold&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;../documents/evo_dym/graph10c_group1_gradientofwellmixed.png&quot; alt=&quot;Scatter plot of pfix_max against pfix_0 for graphs of size 10&quot; /&gt;
+The ratio of pfix_max / pfix_0 in a wellmixed population in about 0.77.
+The line y = 0.77x is plotted in the figure, and it seems like this is not the line that fits most points.
+It could also be the case that those 2000 graphs are graphs that deviate from the line.&lt;/p&gt;
+
+&lt;!-- [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+
+  &gt; Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+It's an immensely useful tool and one we encourage you to use here with Hyde.
+
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll). --&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>About me</title>
    <link href="http://localhost:4000/2022/11/10/introduction/"/>
    <updated>2022-11-10T00:00:00+08:00</updated>
    <id>http://localhost:4000/2022/11/10/introduction</id>
-   <content type="html">&lt;p&gt;I am still a student, still learning :)&lt;/p&gt;
+   <content type="html">&lt;p&gt;My Bucket list: (in no particular order)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;See the Northern light&lt;/li&gt;
+  &lt;li&gt;Have my own house&lt;/li&gt;
+  &lt;li&gt;Land an Axel on ice&lt;/li&gt;
+  &lt;li&gt;Run a sub-2 half-marathon&lt;/li&gt;
+  &lt;li&gt;Run a sub-4 marathon&lt;/li&gt;
+  &lt;li&gt;Get the Ph.D.&lt;/li&gt;
+  &lt;li&gt;Get a part-time job as a bartender&lt;/li&gt;
+  &lt;li&gt;Climb Mt. Everest&lt;/li&gt;
+  &lt;li&gt;Live in Japan or Germany for a year&lt;/li&gt;
+  &lt;li&gt;Play &lt;em&gt;Flower Dance&lt;/em&gt; on harmonica&lt;/li&gt;
+  &lt;li&gt;Use &lt;em&gt;Beautiful in White&lt;/em&gt; as the music for my wedding&lt;/li&gt;
+  &lt;li&gt;more TBD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I know some are easier than others and some require much more work, but please, allow me to dream, at least :)&lt;/p&gt;
 
 &lt;!-- 
 ### Hyde features
@@ -43,25 +110,44 @@ Thanks! --&gt;
  </entry>
  
  <entry>
+   <title>Computational Genomics</title>
+   <link href="http://localhost:4000/2022/11/09/Notes_from_computational_genomics/"/>
+   <updated>2022-11-09T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2022/11/09/Notes_from_computational_genomics</id>
+   <content type="html">&lt;p&gt;I took the course computational genomics at Carnegie Mellon in Spring 2022 and consolidated my own notes from the part of lectures that were on the exam. 
+I…narcissistically think that my notes were decent as they helped me to score pretty well on the exam :D&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../documents/510notes.pdf&quot;&gt;Here&lt;/a&gt; it is.
+I will definitely revisit and make this better as I learn more and more about the various topics touched by this course.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>My little adventure in evolutionary dynamics</title>
    <link href="http://localhost:4000/2022/11/07/my_little_adventure/"/>
    <updated>2022-11-07T00:00:00+08:00</updated>
    <id>http://localhost:4000/2022/11/07/my_little_adventure</id>
-   <content type="html">&lt;p&gt;Here is the &lt;a href=&quot;/documents/07300proposal.pdf&quot;&gt;initial proposal&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Here is the &lt;a href=&quot;../documents/evo_dym/07300proposal.pdf&quot;&gt;initial proposal&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Here is the &lt;a href=&quot;/documents/07300_mildstone.pdf&quot;&gt;milestone report&lt;/a&gt; after 2 months&lt;/p&gt;
+&lt;p&gt;Here is the &lt;a href=&quot;../documents/evo_dym/07300_mildstone.pdf&quot;&gt;milestone report&lt;/a&gt; after 2 months&lt;/p&gt;
 
 &lt;p&gt;Here are the bi-weekly updates the following semester&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update1.pdf&quot;&gt;first&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update2.pdf&quot;&gt;second&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update3.pdf&quot;&gt;third&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update4.pdf&quot;&gt;fourth&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update5.pdf&quot;&gt;fifth&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../documents/update6.pdf&quot;&gt;six&lt;/a&gt; and &lt;a href=&quot;../documents/update6edit.pdf&quot;&gt;edit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update1.pdf&quot;&gt;first&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update2.pdf&quot;&gt;second&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update3.pdf&quot;&gt;third&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update4.pdf&quot;&gt;fourth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update5.pdf&quot;&gt;fifth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/update6.pdf&quot;&gt;six&lt;/a&gt; and &lt;a href=&quot;../documents/evo_dym/update6edit.pdf&quot;&gt;edit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/final_report.pdf&quot;&gt;seven&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;and here is my &lt;a href=&quot;../documents/Untitled_presentation.pdf&quot;&gt;final presentation slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and here is my &lt;a href=&quot;../documents/evo_dym/Untitled_presentation.pdf&quot;&gt;final presentation slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../documents/evo_dym/Nov%2014%20update.pdf&quot;&gt;Nov14th update&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hopefully more to come :)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!-- 
 &lt;div class=&quot;message&quot;&gt;

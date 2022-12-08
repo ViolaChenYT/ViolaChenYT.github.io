@@ -3,7 +3,21 @@ layout: post
 title: About me
 ---
 
-I am still a student, still learning :)
+My Bucket list: (in no particular order)
+- See the Northern light
+- Have my own house
+- Land an Axel on ice
+- Run a sub-2 half-marathon
+- Run a sub-4 marathon
+- Get the Ph.D.
+- Get a part-time job as a bartender
+- Climb Mt. Everest
+- Live in Japan or Germany for a year
+- Play *Flower Dance* on harmonica
+- Use *Beautiful in White* as the music for my wedding
+- more TBD
+
+I know some are easier than others and some require much more work, but please, allow me to dream, at least :)
 
 <!-- 
 ### Hyde features
