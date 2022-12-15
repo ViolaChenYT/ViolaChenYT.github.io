@@ -3,6 +3,30 @@ layout: post
 title: Profiling evolution on graph of size 10
 ---
 
+## Algebraic connectivity result
+
+![alg_con](../documents/evo_dym/algebraic_con_group1.png)
+![algebraic](../documents/evo_dym/algebraic_group1_colored.png)
+
+
+## newest figure with a lot more runs (1million per data point) and more graphs.
+
+![new fig](documents/../../documents/evo_dym/fig_with_legend.png)
+
+the line here is approximately y = 0.619 + 0..017 so it is around the same as graph of size 100. 
+Below are the 2 graphs corresponding to the 2 "detour" that is above the line.
+
+![graph13](../documents/evo_dym/graph13.png)
+![graph14](../documents/evo_dym/graph14.png)
+
+They are both dense graphs (a clique) with a very short "detour". I guess they may or may not count as true detour?
+I made some "asymmetric" graphs like the island graphs (as how I made them for graphs of 100 nodes), but it seems like we don't see much effect (my guess is that the degree difference is too little)
+
+![slide72](../documents/evo_dym/slide72.png)
+
+I recall from this (slide 72) here that in graph of size 100, not much difference could be observed when degree difference < 10. Unfortunately, it is not possible to create larger degree differences in small graphs.
+
+
 ## Summary of experiment
 - Detour graphs seem to have lower-than-expected probability of fixation with noise in fitness, we wanted to confirm if this is the case in graph of size 10 as well (previous experiments were done on graphs of size 100)
 - Since the number of graphs of size 10 is limited, I hope to use those graphs to find out what might cause deviations from the geometric mean fitness principle
